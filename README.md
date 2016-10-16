@@ -6,6 +6,7 @@ This web application was built using HTML5, CSS3, Bootstrap, Vagrant, Flask, SQL
 To run the web application:  
 1. Install Vagrant and Virtual Box  
 2. Clone this repository  
-3. Launch the Vagrant VM (by typing `vagrant up` in the directory *udacity-catalog-project* from the terminal).  
-4. From directory */udacity-catalog-project/catalog*, run the application within the VM by typing `python main.py` into the Terminal.  
-5. Access the application by visiting http://localhost:8000 locally on the browser.
+3. Launch the Vagrant VM (by typing `vagrant up` in the directory */udacity-catalog-project* from the terminal).  
+4. From directory */udacity-catalog-project/catalog*, initialize the application database by typing `python database_setup.py` and `python feedcatalog.py` (This step is optional).  
+5. From directory */udacity-catalog-project/catalog*, run the application within the VM by typing `python main.py` into the Terminal.  
+6. Access the application by visiting http://localhost:8000 locally on the browser.
