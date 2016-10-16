@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "header.html" %}
+
+    <div class="row text-center">
+        <h1>Welcome to Catalog App</h1>
+    </div>
+    <div class="row">
+        <img src={{url_for('static', filename="workspace.jpg")}} class="img-responsive">
+    </div>
+    <hr>
+    <div class="row text-center">
+        <div class="col-md-4 col-md-offset-4">
+            <p class="lead">Are you ready to explore awesome categories, or even greater, create one of your own?</p>
+            <a href="/catalog">
+                <button class="btn btn-default" role="button">
+                    Let's Dive In &raquo;
+                </button>
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
