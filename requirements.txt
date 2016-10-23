@@ -12,8 +12,4 @@ lpthw.web==1.1
 macholib==1.5.1
 MarkupSafe==0.23
 twilio==6.3.dev0
-virtualenv==15.0.3
-VPython==6.11
-Werkzeug==0.11.11
-wxPython==3.0.0.0
-wxPython-common==3.0.0.0
+
