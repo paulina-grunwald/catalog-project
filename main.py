@@ -524,6 +524,7 @@ def createUser(login_session):
     return user.id
 
 if __name__ == '__main__':
+    port = init(os.environ.get("PORT", 33507))
     app.secret_key = "MILUBIN2020BREGCG"
     app.debug = False
-    app.run()
+    app.run(host='0.0.0.0', port=port)
