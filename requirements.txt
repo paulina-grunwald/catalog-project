@@ -3,6 +3,7 @@ bdist-mpkg==0.5.0
 click==6.6
 Django==1.8.2
 SqlAlchemy==1.1.2
+oauth2client
 Flask==0.11.1
 FontTools==2.4
 gunicorn==19.6.0
