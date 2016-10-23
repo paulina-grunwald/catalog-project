@@ -2,6 +2,7 @@ from flask import Flask, render_template, url_for, request, redirect, jsonify, m
 from sqlalchemy import create_engine, asc, desc
 from sqlalchemy.orm import sessionmaker
 from functools import wraps
+import os
 
 from database_setup import Base, User, Category, Item
 
