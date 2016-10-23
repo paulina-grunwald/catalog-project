@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "header.html" %}
+
+    <div class="jumbotron">
+        <h1>About</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="/static/development.png" class="img-responsive">
+            </div>
+            <div class="col-md-9">
+                <p>
+                This Catalog Web Application provides a list of items within a variety of categories and integrate third party user registration and authentication. Authenticated users should have the ability to post, edit, and delete their own items.
+                </p>
+                <p>
+                This application was built with HTML5, CSS, Bootstrap, Flask, SQLAlchemy, Google and Facebook Oauth2 & APIs.</p>
+                <p>
+                Source code can be found here: 
+                <a href="https://github.com/thuynh8/udacity-catalog-project">https://github.com/thuynh8/udacity-catalog-project</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

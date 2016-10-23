@@ -17,7 +17,11 @@
                 <p class="lead">Please login to create awesome categories and items of your own!</p>
                 <hr>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-6"><p>Login with Google</p></div>
+                    <div class="col-md-6 col-xs-6"><p>Login with Facebook</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-6">
                         <span class="g-signin"
                               data-scope="openid email"
                               data-clientid="373960950025-ntlt4gollkbt4m6pa4kfh4ebi1m4dou8.apps.googleusercontent.com"
@@ -28,8 +32,8 @@
                               data-approvalprompt="force">
                         </span>
                     </div>
-                    <div class="col-md-6">
-                        <fb:login-button
+                    <div class="col-md-6 col-xs-6">
+                        <fb:login-button size="large"
                           scope="public_profile,email"
                           onlogin="sendTokenToServer();">
                         </fb:login-button>
