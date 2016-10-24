@@ -1,7 +1,9 @@
 # Item Catalog Project 
-This is my solutions for Item Catalog Project, the third project in Udacity's Full Stack Web Developer Nanodegree. The purpose of this project was to develope a web application - from scratch - that provides a list of items within a variety of categories and integrate third party user registration and authentication. Authenticated users should have the ability to post, edit, and delete their own items.
+This is my solutions for Item Catalog Project, the third project in Udacity's Full Stack Web Developer Nanodegree. The purpose of this project was to develope a web application - from scratch - that provides a list of items within a variety of categories and integrate third party user registration and authentication. Authenticated users should have the ability to post, edit, and delete their own items.  
+
+####Live version of this project is available at: https://catalog-2016.herokuapp.com/
 ## Tools and Frameworks
-This web application was built using HTML5, CSS3, Bootstrap, Vagrant, Flask, SQLAlchemy, Google and Facebook Oauth2.
+This web application was built with HTML5, CSS, Bootstrap, Vagrant, Flask, SQLAlchemy, Google and Facebook Oauth2 & APIs.
 ## Instruction
 To run the web application:  
 1. Install Vagrant and Virtual Box  
